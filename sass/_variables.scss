@@ -1,0 +1,32 @@
+$ancho :100%;
+$bg-color:#111;
+$color-w: #fff; 
+$fuentes_negrita: bold;
+$flex : flex;
+$center: center;
+$row: row;
+$space-around :space-around;
+$space-between:space-between;
+$column:column;
+$space-evenly:space-evenly;
+$primary-color: pink;
+$text-align: center;
+
+$map-flex:(
+    flex: flex,
+    row: row,
+    column: column,
+    space-around: space-around,
+    space-between: space-between,
+    space-evenly: space-evenly,
+    center: center,
+    justi: justify
+);
+
+
+$sizes:(
+    catorce: 14px,
+    16 : 16px,
+    20 :20px,
+    10 : 10px
+);

@@ -1,0 +1,45 @@
+@mixin size($w, $h){
+    width: $w;
+    height: $h;
+}
+
+@mixin flex-just($c){
+	display:flex;
+	justify-content:$c;
+}
+
+@mixin grid-just($j){
+    display: grid;
+    justify-content: $j;
+}
+
+@mixin flex-column-center{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+}
+
+@mixin flex-direction-center($direction){
+    display:flex;
+    flex-direction:$direction;
+    justify-content:center;
+}
+
+
+@mixin grid-columns-row($columns,$row){
+    display:grid;
+    grid-template-columns:repeat($columns, 1fr);
+    grid-template-rows:repeat($row, 1fr);
+}
+
+@mixin contenedor_grid($bgcolor,$justify,$aling){
+    background-color:$bgcolor;
+    display: grid;
+    justify-content: $justify;
+    align-items: $aling;
+}
+
+@mixin alineacion-flex($justify,$text-aling) {
+    justify-content: $justify;
+    text-align: $text-align;
+}
