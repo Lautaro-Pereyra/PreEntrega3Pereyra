@@ -326,6 +326,12 @@ height: 60vh;
 }
 
 
+.form-outline{
+  margin-top: 10px;
+  color: #ffffff;
+  font-family: 'bai jamjuree', sans-serif;
+}
+
 /*NOSOTROS*/
 .nosotros {
   display: grid;
