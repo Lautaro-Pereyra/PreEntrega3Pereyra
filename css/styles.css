@@ -123,17 +123,17 @@ html{
 
   
 #section-principal{
-  height: 120vh;
+  height: 100vh;
   background-image: linear-gradient(0deg,
   rgba(0, 0, 0, 0.5),
   rgba(0, 0, 0, 0.5)),
-url(../img/fondo-index.jpg);
+url(../img/fondo-index.png);
 background-position: center center;
 background-size: cover;
 background-repeat: no-repeat;
 background-attachment: fixed;
 padding: 30px;
-height: 100vh;
+
 }
   .sup {
     display: flex;
@@ -262,7 +262,11 @@ height: 100vh;
   
   display: grid;
   grid-template-columns: 1fr 1fr;
-  height: 60vh;
+  background-image: linear-gradient(0deg,
+  rgba(0, 0, 0, 0.5),
+  rgba(0, 0, 0, 0.5)),
+url(../img/fondo-index.png);
+  height: 80vh;
 }
 
 .tiendas {
@@ -275,13 +279,20 @@ height: 100vh;
   padding: 5px;
 }
 .tiendas h5 {
+  color: #ffffff;
   margin: 3px;
 }
+.tiendas h1 {
+  color: #ffffff;
+  margin: 3px;
+}
+
 .tiendas a {
-  color: #7e7e7e;
+  color: #ffffff;
   text-decoration: none;
 }
 .tiendas ul {
+  color: #ffffff;
   margin: 10px;
   padding: 5px;
 }
@@ -295,6 +306,25 @@ height: 100vh;
   width: 70%;
   height: 65%;
 }
+
+
+/*contacto*/
+
+.contacto_container{
+  height: 120vh;
+  background-image: linear-gradient(0deg,
+  rgba(0, 0, 0, 0.5),
+  rgba(0, 0, 0, 0.5)),
+url(../img/fondo-index.png);
+background-position: center center;
+background-size: cover;
+background-repeat: no-repeat;
+background-attachment: fixed;
+padding: 30px;
+height: 60vh;
+
+}
+
 
 /*NOSOTROS*/
 .nosotros {
@@ -318,9 +348,6 @@ height: 100vh;
 .nosotros__img img {
   width: 80%;
 }
-
-
-
 
   
 /*FOOTER*/
@@ -425,19 +452,6 @@ footer {
   .youtube:hover {
     background-color: #c4302b;
   }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

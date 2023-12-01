@@ -223,6 +223,58 @@ body {
 
 
 
+/* ---DIRECCION/TIENDAS------*/
+.title_tiendas {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    text-align: center;
+    font-family: 'bai jamjuree', sans-serif;
+    font-weight: bold;
+  }
+  
+  .conteiner__tiendas {
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 60vh;
+  }
+  
+  .tiendas {
+    display: flex;
+    flex-direction: column;
+    margin-left: 150px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    font-family: 'bai jamjuree', sans-serif;
+    padding: 5px;
+  }
+  .tiendas h5 {
+    margin: 3px;
+  }
+  .tiendas a {
+    color: #7e7e7e;
+    text-decoration: none;
+  }
+  .tiendas ul {
+    margin: 10px;
+    padding: 5px;
+  }
+  
+  .map {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .map iframe {
+    width: 70%;
+    height: 65%;
+  }
+
+
+
+
+
 /*NOSOTROS*/
 
 .nosotros {
